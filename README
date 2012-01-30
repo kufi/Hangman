@@ -2,4 +2,4 @@ A simple hangman game.
 
 Supports a single- and multiplayer mode
 
-Implemented with Symfony 1.4
+Implemented with Symfony 1.2
