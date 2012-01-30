@@ -1,0 +1,60 @@
+newWord:
+  url: /multiplayer/newWord
+  class: sfRequestRoute
+  param: { module: hangman, action: newWord }
+
+checkLobby:
+  url: /multiplayer/checkLobby
+  class: sfRequestRoute
+  param: { module: hangman, action: checkLobby }
+letterClickedMultiplayer:
+  url: /multiplayer/letter/:letter
+  class: sfRequestRoute
+  param: { module: hangman, action: letterMultiplayer }
+
+checkUpdate:
+  url: /multiplayer/checkUpdate
+  param: { module: hangman, action: checkUpdate }
+
+gameStarted:
+  url: /multiplayer/gameStarted
+  param: { module: hangman, action: gameStarted }
+
+logout:
+  url: /multiplayer/logout
+  param: { module: hangman, action: logout }
+
+multiplayer_join:
+  url: /multiplayer/join/:id
+  class: sfPropelRoute
+  options: { model: Games, type: object }
+  param: { module: hangman, action: join }
+
+multiplayer:
+  url: /multiplayer/new
+  param: { module: hangman, action: multiplayer }
+
+lobby:
+  url: /multiplayer
+  param: { module: hangman, action: lobby }
+
+letterClicked:
+  url: /singleplayer/:letter
+  class: sfRequestRoute
+  param: { module: hangman, action: letter}
+
+singleplayer:
+  url: /singleplayer
+  param: { module: hangman, action: singleplayer }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: hangman, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,28 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Words
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          words
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:
+        word: {label: Wort}
+      list:
+        title: Wörterverwaltung
+        display: [word]
+        sort: [word, asc]
+        batch_actions: {}
+        max_per_page: 20
+      filter:  ~
+      form:    ~
+      edit:
+        title: Wort "%%word%%" editieren
+      new:
+        title: Neues Wort

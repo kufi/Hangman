@@ -1,0 +1,22 @@
+propel:
+  words:
+    id: ~
+    word: {type: varchar(255), required: true, index: unique}
+  player:
+    id: ~
+    name: {type: varchar(255), required: true, index: unique}
+    last_update: {type: timestamp, required: true}
+    in_lobby: {type: boolean, required: true, default: 1}
+  games:
+    id: ~
+    player1_id: {type: integer, foreignTable: player, foreignReference: id, required: true, onDelete: cascade }
+    player2_id: {type: integer, foreignTable: player, foreignReference: id, onDelete: cascade }
+    word_id: {type: integer, foreignTable: words, foreignReference: id, required: true}
+    player_turn: {type: integer, required: true, default: 1}
+    player1_faults: {type: integer, default: 0}
+    player2_faults: {type: integer, default: 0}
+    used_letters: {type: varchar(500)}
+    new_game_player1: {type: boolean, default: 0}
+    new_game_player2: {type: boolean, default: 0}
+    new_game_started: {type: boolean, default: 0}
+    created_at: ~ 

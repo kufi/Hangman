@@ -1,0 +1,75 @@
+#menu
+{
+	padding-bottom:5px;
+	background-image:url(/images/menuBackground.jpg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#menu ul li
+{
+	display:inline;
+	list-style-type:none;
+}
+
+#menu ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+#content
+{
+	width:1000px;
+	margin:auto;
+	border:solid 1px blue;
+	border-top-width: 0px;
+	padding:10px;
+}
+
+.sf_admin_td_actions li, .sf_admin_actions li
+{
+	list-style-type:none;
+	display:inline;
+}
+
+ul[class="sf_admin_td_actions"], ul[class="sf_admin_actions"]
+{
+  margin:0px;
+  padding:0px;
+}
+
+.sf_admin_filter
+{
+	float:left;
+	margin-right:50px;
+}
+
+#sf_fieldset_none
+{
+	border-width:0px;
+}
+
+.sf_admin_action_new a
+{
+  background: url(/sfPropelPlugin/images/new.png) no-repeat 0 0;
+  padding-left:20px;
+}
+
+.sf_admin_action_delete a
+{
+  background: url(/sfPropelPlugin/images/delete.png) no-repeat 0 0;
+  padding-left:20px;
+}
+
+.sf_admin_action_list a
+{
+  background: url(/sfPropelPlugin/images/list.png) no-repeat 0 0;
+  padding-left:20px;
+}
+
+.sf_admin_action_edit a
+{
+  background: url(/sfPropelPlugin/images/edit.png) no-repeat 0 0;
+  padding-left:20px;
+}

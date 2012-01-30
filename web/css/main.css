@@ -1,0 +1,35 @@
+body
+{
+	font-family: Verdana;
+	font-size: 12px;
+	padding:0px;
+	margin:0px;
+}
+
+a
+{
+	color:black;
+}
+
+td
+{
+	vertical-align:top;
+}
+
+img
+{
+	border-width:0px;
+}
+
+#header
+{
+  background-image:url(/images/headerBackground.jpg);
+  background-repeat:repeat-x;
+  color:white;
+  height:70px;
+  padding-top:10px;
+  font-size:40px;
+  font-family:Arial;
+  font-weight:bold;
+  text-align:center;
+}

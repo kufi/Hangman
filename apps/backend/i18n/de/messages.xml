@@ -1,0 +1,96 @@
+ <xml>
+  <body>
+      <trans-unit id="1000000">  
+        <source>delete</source>  
+        <target>Löschen</target>  
+      </trans-unit>  
+      <trans-unit id="2000000">  
+        <source>save</source>  
+        <target>Speichern</target>  
+      </trans-unit>  
+      <trans-unit id="3000000">  
+        <source>list</source>  
+        <target>Zur Liste</target>  
+      </trans-unit>  
+      <trans-unit id="4000000">  
+        <source>save and add</source>  
+        <target>Speichern und hinzufügen</target>  
+      </trans-unit>  
+      <trans-unit id="5000000">  
+        <source>reset</source>  
+        <target>Zurücksetzen</target>  
+      </trans-unit>  
+      <trans-unit id="6000000">  
+        <source>filter</source>  
+        <target>Suchen</target>  
+      </trans-unit>  
+      <trans-unit id="7000000">  
+        <source>filters</source>  
+        <target>Filter</target>  
+      </trans-unit>  
+      <trans-unit id="8000000">  
+        <source>yes or no</source>  
+        <target>Ja oder nein</target>  
+      </trans-unit>  
+      <trans-unit id="9000000">  
+        <source>yes</source>  
+        <target>Ja</target>  
+      </trans-unit>  
+      <trans-unit id="10000000">  
+        <source>no</source>  
+        <target>Nein</target>  
+      </trans-unit>  
+      <trans-unit id="11000000">  
+        <source>Are you sure?</source>  
+        <target>Sind Sie sicher?</target>  
+      </trans-unit>  
+      <trans-unit id="12000000">  
+        <source>Actions</source>  
+        <target>Optionen</target>  
+      </trans-unit>  
+      <trans-unit id="13000000">  
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1%  results</source>  
+        <target>[0] kein Resultat|[1] 1 Resultat|(1,+Inf] %1%  Resultate</target>  
+      </trans-unit>
+      <trans-unit id="14000000">  
+        <source>Next</source>  
+        <target>Nächste Seite</target>  
+      </trans-unit>  
+      <trans-unit id="14000000">  
+        <source>Last</source>  
+        <target>Zur letzten Seite</target>  
+      </trans-unit>  
+      <trans-unit id="15000000">  
+        <source>Previous</source>  
+        <target>Vorherige Seite</target>  
+      </trans-unit>  
+      <trans-unit id="16000000">  
+        <source>First</source>  
+        <target>Zur ersten Seite</target>  
+      </trans-unit>  
+      <trans-unit id="17000000">  
+        <source>no result</source>  
+        <target>Kein Resultat</target>  
+      </trans-unit>
+      <trans-unit id="18000000">  
+        <source>is empty</source>  
+        <target>ist leer</target>  
+      </trans-unit>
+      <trans-unit id="19000000">  
+        <source>Username</source>  
+        <target>Benutzername</target>  
+      </trans-unit>
+      <trans-unit id="20000000">  
+        <source>Password</source>  
+        <target>Passwort</target>  
+      </trans-unit>
+      <trans-unit id="21000000">  
+        <source>Remember</source>  
+        <target>Erinnern</target>  
+      </trans-unit>
+      <trans-unit id="22000000">  
+        <source>sign in</source>  
+        <target>einloggen</target>  
+      </trans-unit>
+    </body>
+  </xml>
